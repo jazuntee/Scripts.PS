@@ -37,8 +37,13 @@
 .DESCRIPTION 
     Update PowerShellGet Module on Windows PowerShell
 .EXAMPLE
-    PS C:\>Update-PowerShellGet.ps1
+    PS > Update-PowerShellGet.ps1
+
     Update PowerShellGet
+.EXAMPLE
+    PS > iex $(irm 'https://aka.ms/Update-PowerShellGet')
+
+    Invoke this script directly from GitHub.
 #> 
 
 
