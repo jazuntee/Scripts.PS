@@ -41,7 +41,7 @@
 
     Update PowerShellGet
 .EXAMPLE
-    PS > iex $(irm 'https://aka.ms/Update-PowerShellGet')
+    PS > iex (irm 'https://aka.ms/Update-PowerShellGet')
 
     Invoke this script directly from GitHub.
 #> 
